@@ -27,6 +27,7 @@ const CartTableRow = (props: {
               alt={props.entry.product.name}
               height={500}
               width={600}
+               layout="responsive"
             />
           </Col>
           <Col xs={8} md={10} lg={11}>
